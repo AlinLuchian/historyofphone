@@ -114,3 +114,163 @@ body {
 .page{
     height: 100vh;
 }
+.pagethreecontainer{
+    display: flex;
+}
+.columnthree{
+    width: 48%;
+    margin: 60px 20px 0 30px;
+}
+.threeimagectn{
+    width: 90%;
+    background: transparent;
+    height: 90vh;
+}
+#righttop{
+    
+    float: right;
+}
+#lefttop{
+    position: absolute;
+}
+#leftbottom{
+    position: absolute;
+    margin-top: 77vh;
+}
+#rightbottom{
+    position: absolute;
+    margin-top: 77vh;
+    margin-left: 34.5vw;
+}
+.imagefield{
+    padding-left: 7vw;
+    padding-top: 13vh;
+}
+.imagefield>img{
+    width: 360px;
+    height: 64vh;
+    border-radius: 10px;
+}
+.fa{
+    font-size: 45px;
+}
+.fa.fa-angle-double-down{
+    color: #ff0;
+    transform: rotate(-55deg);
+    margin: 5px 0 0 10px;
+    animation: movein 2s infinite;
+}
+@keyframes movein{
+    0%{
+        margin:5px 0 0 10px;
+    }
+    25%{
+        color: #00f;
+    }
+    50%{
+        margin:40px 0 0 54px;
+        color: #f00;
+    }
+    75%{
+        color: #188618;
+    }
+    100%{
+        color: #ff0;
+    }
+}
+.fa.fa-angle-double-right{
+    color: #00f;
+    transform: rotate(145deg);
+    margin:5px 10px 0 0;
+    animation: moveout 2s infinite;
+}
+@keyframes moveout{
+    0%{
+        margin:5px 10px 0 0;
+    }
+    25%{
+        color: #ff0;
+    }
+    50%{
+        margin:42px 54px 0 0;
+        color: #188618;
+    }
+    75%{
+        color: #f00;
+    }
+    100%{
+        color: #00f;
+    }
+}
+.fa.fa-angle-double-left{
+    color: #f00;
+    transform: rotate(145deg);
+    margin: 35px 0 0 5px;
+    animation: movetop 2s infinite;
+}
+@keyframes movetop{
+    0%{
+        margin: 35px 0 0 5px;
+    }
+    25%{
+        color: #188618;
+    }
+    50%{
+        margin: 0 0 0 43px;
+        color: #ff0;
+    }
+    75%{
+        color: #00f;
+    }
+    100%{
+        color: #f00;
+    }
+}
+.fa.fa-angle-double-up{
+    color: #188618;
+    transform: rotate(-55deg);
+    margin: 35px 5px 0 46px;
+    animation: moveinup 2s infinite;
+}
+@keyframes moveinup{
+    0%{
+        margin: 35px 5px 0 46px;
+    }
+    25%{
+        color: #ff0;
+    }
+    50%{
+        margin: 0 0 0 0;
+        color: #00f;
+    }
+    75%{
+        color: #f00;
+    }
+    100%{
+        color: #188618;
+    }
+}
+.imageinv{
+    width: 230px;
+    height: 300px;
+    border-radius: 50%;
+    float: right;
+    overflow: hidden;
+    shape-outside: circle();
+    margin: 20px 30px 30px 30px;
+}
+.columnthree>p{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    line-height: 39px;
+    text-align: justify;
+    font-family: 'Annie Use Your Telescope';
+}
+.imageinv>img{
+    width: 230px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+}
