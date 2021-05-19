@@ -32,6 +32,7 @@ nav{
 .main{
     display: flex;
     height: 100vh;
+    padding-bottom: 300px;
 }
 .flexcolumn{
     width: 48%;
@@ -327,7 +328,7 @@ nav{
 }
 .column-one{
     width: 40%;
-    height: 700px;
+    height: 1300px;
     background: transparent;
     margin: 80px 5% 0 5%;
 }
@@ -342,9 +343,10 @@ nav{
     border-radius: 12px;
 }
 .text-row{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Archivo Narrow';
     margin: 25px 20%;
+    line-height: 32px;
 }
 .subtitle-row{
     margin: 55px 20% 0px 20%;
@@ -370,4 +372,17 @@ nav{
     height: 500px;
     background: transparent;
     margin: 40px 5% 0 5%;
+}
+.text-important{
+    font-weight: 700;
+    color: rgb(4, 4, 106);
+}
+.list{
+    margin-left: 3%;
+    list-style-type: disc;
+}
+.list>li{
+    font-size: 20px;
+    font-family: 'Archivo Narrow';
+    margin-bottom: 15px;
 }
